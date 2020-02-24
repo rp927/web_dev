@@ -1,0 +1,11 @@
+body {
+    background-color: darkslategrey;
+    background-image: url('C8.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-family: Gargi;
+}
