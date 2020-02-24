@@ -3,10 +3,10 @@ body {
     font-family:arial;
     color:black;
     font-size:14px;
-    background-color:blueviolet;
+    background-color:white;
 }
 
-image.right {
+img.right {
     float: right;
     margin: 5px;
 }
