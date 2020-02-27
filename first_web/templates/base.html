@@ -8,8 +8,20 @@
   <body>
     <div class="header">
       <h1>Welcome!</h1>
-      <p>A website created by me.</p>
+      <p>The GitHub portfolio of rp927</p>
     </div>
-    {% block content %}{% endblock %}
+    <div class="navbar">
+      <a href="#">LINK</a>
+      <a href="#">LINK</a>
+      <a href="#">LINK</a>
+      <a href="#" class="right">VISIT GITHUB</a>
+    </div>
+    <div class="row">
+      <div class="side">About Me</div>
+      <div class="main">{% block content %}{% endblock %}</div>
+    </div>
+    <div class="footer">
+      <h2>FOOTER</h2>
+    </div>
   </body>
 </html>
